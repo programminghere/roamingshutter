@@ -1,0 +1,110 @@
+/* Set global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.5;
+	color: #333;
+}
+
+/* Style the header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav li {
+	margin-left: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Style the main section */
+main {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 2rem 1rem;
+}
+
+#hero {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#hero h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+#hero p {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.button {
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 2rem;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+	background-color: #444;
+}
+
+/* Style the featured photos section */
+#featured-photos {
+	margin-bottom: 2rem;
+}
+
+#featured-photos h2 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+#featured-photos ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+#featured-photos li {
+	flex-basis: calc(33.33% - 1rem);
+}
+
+#featured-photos img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+#featured-photos p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+/* Style the footer */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
